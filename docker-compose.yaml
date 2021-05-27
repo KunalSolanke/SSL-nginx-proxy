@@ -1,5 +1,6 @@
 version: '3.8'
-
+#This compose file uses dockergen and jwilder-proxy also jcrs letsencrypt companion
+#to configure ssl on container with VIRTUAL_HOST setup in their environment
 services:
   nginx:
     image: nginx:1.19.0-alpine 
